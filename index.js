@@ -11,6 +11,7 @@ mongoose.connect("mongodb+srv://aman:21632AMAN@cluster0.jrfj4bn.mongodb.net/test
     console.log("not connected to database");
 });
 
+
 // creting schema for user
 
 const userSchema = new mongoose.Schema({
